@@ -1,8 +1,8 @@
 # Utilities
 
-splitConvert - bash utility
-  creates split & conv dir
-  split input file by linecount specified
-  convert splits using sqlines
-  output converted sql to conv dir
+## Split Convert
+  * Create split & conv dir
+  * Split input file by linecount specified
+  * Convert splits using sqlines
+  * Output converted sql to conv dir
   
