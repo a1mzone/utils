@@ -19,7 +19,7 @@ while IFS= read -r source || [[ -n "$source" ]]; do
         --compressed \
         -X POST \
         -H 'Content-Type: application/json' \
-        -H 'Authorization: Basic ZHJ1aWRfc3lzdGVtOjZLM1A1c0tjM0ZtcjNl' \
+        -H 'Authorization: Basic ' \
         --data-raw "{\"dataSource\":\"${source}\",\"tuningConfig\":{\"partitionsSpec\":{\"type\":\"dynamic\"}}}")
 
     echo "HTTP Status Code: $HTTP_STATUS"
